@@ -30,29 +30,44 @@
 <h2>
 <a id="steps-" class="anchor" href="#steps-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Steps </h2>
 
-<p>1) Launch an EMR cluster with Spark
-2) Load earthquake data (provided)
-3) Run a clustering algorithm on the data (K-Means algorithm)
-4) Visualize the clusters in Google Earth
-5) <em>optional:</em> Evaluate the precision of the clustering algorithm
-6) <em>mandatory:</em> Have fun!</p>
+<ol>
+<li>Launch an EMR cluster with Spark</li>
+<li>Load earthquake data (provided)</li>
+<li>Run a clustering algorithm on the data (K-Means algorithm)</li>
+<li>Visualize the clusters in Google Earth</li>
+<li>
+<em>optional:</em> Evaluate the precision of the clustering algorithm</li>
+<li>
+<em>mandatory:</em> Have fun!</li>
+</ol>
 
 <h2>
 <a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prerequisites</h2>
 
-<p>1) Create an AWS account (if you do not have one)
-2) Install and configure the AWS command line tool: <a href="https://aws.amazon.com/cli/">link</a>
-3) Install <a href="https://www.google.com/earth/">Google Earth</a></p>
+<ol>
+<li>Create an AWS account (if you do not have one)</li>
+<li>Install and configure the AWS command line tool: <a href="https://aws.amazon.com/cli/">link</a>
+3) Install <a href="https://www.google.com/earth/">Google Earth</a>
+</li>
+</ol>
 
 <h2>
 <a id="exploring-the-package" class="anchor" href="#exploring-the-package" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exploring the package</h2>
 
-<p>1) <strong>create-cluster.sh</strong> - script for launching an EMR cluster (uses the aws cli tool)
-2) <strong>earthquakes.csv</strong> - earthquake data (also available at: s3://awsemr-magic-night/earthquakes.csv)
-3) <strong>earthquakes.kml</strong> - earthquake data in KML format. You can open this directly with Google Earth. Try it out!
-4) <strong>earthquakes_to_kml.py</strong> - script used to convert earthquakes.csv to earthquakes.kml. You won't need this, but you can use it as a resource to learn how to generate a KML file in python.
-5) <strong>starter_code.py</strong> - Starter code, let's get hacking!
-6) <strong>README.md</strong> - That's me! Hi.</p>
+<ol>
+<li>
+<strong>create-cluster.sh</strong> - script for launching an EMR cluster (uses the aws cli tool)</li>
+<li>
+<strong>earthquakes.csv</strong> - earthquake data (also available at: s3://awsemr-magic-night/earthquakes.csv)</li>
+<li>
+<strong>earthquakes.kml</strong> - earthquake data in KML format. You can open this directly with Google Earth. Try it out!</li>
+<li>
+<strong>earthquakes_to_kml.py</strong> - script used to convert earthquakes.csv to earthquakes.kml. You won't need this, but you can use it as a resource to learn how to generate a KML file in python.</li>
+<li>
+<strong>starter_code.py</strong> - Starter code, let's get hacking!</li>
+<li>
+<strong>README.md</strong> - That's me! Hi.</li>
+</ol>
 
 <h2>
 <a id="launch-an-emr-cluster-with-spark" class="anchor" href="#launch-an-emr-cluster-with-spark" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Launch an EMR cluster with Spark</h2>
